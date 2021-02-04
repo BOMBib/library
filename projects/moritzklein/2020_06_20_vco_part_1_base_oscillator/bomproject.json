@@ -1,0 +1,27 @@
+{
+    "title": "DIY SYNTH VCO Part 1: How to build an analog oscillator core from scratch [Osc][-12,0,12V][Video]",
+    "description": "In this series, I'm taking a detailed look at how to build an analog VCO from scratch, using just a handful of cheap components. It's the basis for any synthesizer. To keep it as beginner-friendly as possible, I'm explaining what all the components do in detail.\nThis first part deals with the oscillator core, op amp-buffers, AC coupling and voltage dividers",
+    "author": {
+        "name": "Moritz Klein",
+        "youtube": "https://www.youtube.com/channel/UCzfW6SlNEyxmAPtdr3n-_Og",
+        "patreon": "https://www.patreon.com/moritzklein"
+    },
+    "committer": {
+        "name": "MaPePeR",
+        "github": "MaPePeR"
+    },
+    "links": {
+        "YouTube-Video": "https://www.youtube.com/watch?v=QBatvo8bCa4"
+    },
+    "bom": [
+        {"type": "Capacitor", "value": "2.2nF", "spec": "foil capacitor", "qty": 1},
+        {"type": "Capacitor", "value": "1uF ", "spec": "foil", "qty": 1},
+        {"type": "Resistor", "value": "100k", "qty": 4},
+        {"type": "Diode", "value": "1N4148", "qty": 1},
+        {"type": "IC", "value": "40106", "qty": 1},
+        {"type": "IC", "value": "TL074", "qty": 1, "note": "you can also use a TL072, we won't be needing more than one op amp"},
+        {"spec": "3.5mm OR 6.35mm jack socket", "qty": 1},
+        {"spec": "Breadboard", "qty": 1},
+        {"spec": "2x 9V battery plus clip OR 1x dual 9-15V power supply", "qty": 1}
+    ]
+}

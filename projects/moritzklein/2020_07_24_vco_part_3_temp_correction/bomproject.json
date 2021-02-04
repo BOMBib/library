@@ -1,0 +1,22 @@
+{
+    "title": "DIY SYNTH VCO Part 3: Temperature Dependence & Scaling [VCO][-12,0,12V][Video]",
+    "description": "In this series, I'm taking a detailed look at how to build an analog VCO from scratch, using just a handful of cheap components. It's the basis for any synthesizer. To keep it as beginner-friendly as possible, I'm explaining what all the components do in detail.\nThis third part improves upon the scaling and offset circuit we built last time, making it less dependent on temperature. Also, we're fine-tuning the VCO. Topics also include PNP transistors, emitter followers and voltage subtraction.",
+    "author": {
+        "name": "Moritz Klein",
+        "youtube": "https://www.youtube.com/channel/UCzfW6SlNEyxmAPtdr3n-_Og",
+        "patreon": "https://www.patreon.com/moritzklein"
+    },
+    "committer": {
+        "name": "MaPePeR",
+        "github": "MaPePeR"
+    },
+    "links": {
+        "YouTube-Video": "https://www.youtube.com/watch?v=dd1dws6pSNo"
+    },
+    "bom": [
+        {"type": "Potentiometer", "value": "1K", "spec": "Precision Trimmer", "qty": 1},
+        {"type": "Resistor", "value": "1M", "qty": 1},
+        {"type": "Resistor", "value": "1.5K", "qty": 1},
+        {"type": "", "spec": "BC558C Transistor", "qty": 1}
+    ]
+}

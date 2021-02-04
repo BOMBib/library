@@ -1,0 +1,24 @@
+{
+    "title": "DIY SYNTH VCO Part 2: How to control an oscillator with a voltage [VCO][-12,0,12V][Video]",
+    "description": "In this series, I'm taking a detailed look at how to build an analog VCO from scratch, using just a handful of cheap components. It's the basis for any synthesizer. To keep it as beginner-friendly as possible, I'm explaining what all the components do in detail.\nThis second part is focused on adding CV capabilities to our oscillator core. Topics include NPN transistors, potentiometers and voltage addition.",
+    "author": {
+        "name": "Moritz Klein",
+        "youtube": "https://www.youtube.com/channel/UCzfW6SlNEyxmAPtdr3n-_Og",
+        "patreon": "https://www.patreon.com/moritzklein"
+    },
+    "committer": {
+        "name": "MaPePeR",
+        "github": "MaPePeR"
+    },
+    "links": {
+        "YouTube-Video": "https://www.youtube.com/watch?v=4qxgwN9aq8E"
+    },
+    "bom": [
+        {"type": "Potentiometer", "value": "100k ", "qty": 1, "spec": "probably Mono Linear"},
+        {"type": "Resistor", "value": "100k ", "qty": 2},
+        {"type": "Resistor", "value": "10k ", "qty": 2},
+        {"type": "Resistor", "value": "4k ", "qty": 1},
+        {"type": "", "spec": "BC548C Transistor", "qty": 1},
+        {"type": "", "spec": "Audio Jack Socket (to connect your sequencer)", "qty": 1}
+    ]
+}
