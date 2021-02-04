@@ -18,7 +18,7 @@
         {"type": "Resistor", "value": "100k", "qty": 2},
         {"type": "Resistor", "value": "10k", "qty": 2},
         {"type": "Resistor", "value": "4k", "qty": 1},
-        {"type": "", "spec": "BC548C Transistor", "qty": 1},
+        {"type": "Transistor", "value": "BC548C", "qty": 1},
         {"type": "", "spec": "Audio Jack Socket (to connect your sequencer)", "qty": 1}
     ]
 }
