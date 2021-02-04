@@ -15,7 +15,7 @@
     },
     "bom": [
         {"type": "Potentiometer", "value": "100k ", "qty": 1, "spec": "probably Mono Linear"},
-        {"type": "Resistor", "value": "100k ", "qty": 2},
+        {"type": "Resistor", "value": "100k", "qty": 2},
         {"type": "Resistor", "value": "10k ", "qty": 2},
         {"type": "Resistor", "value": "4k ", "qty": 1},
         {"type": "", "spec": "BC548C Transistor", "qty": 1},
