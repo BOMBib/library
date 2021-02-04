@@ -14,9 +14,9 @@
         "YouTube-Video": "https://www.youtube.com/watch?v=dd1dws6pSNo"
     },
     "bom": [
-        {"type": "Potentiometer", "value": "1K", "spec": "Precision Trimmer", "qty": 1},
+        {"type": "Potentiometer", "value": "1k", "spec": "Precision Trimmer", "qty": 1},
         {"type": "Resistor", "value": "1M", "qty": 1},
-        {"type": "Resistor", "value": "1.5K", "qty": 1},
+        {"type": "Resistor", "value": "1.5k", "qty": 1},
         {"type": "", "spec": "BC558C Transistor", "qty": 1}
     ]
 }

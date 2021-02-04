@@ -14,8 +14,8 @@
         "YouTube-Video": "https://www.youtube.com/watch?v=QBatvo8bCa4"
     },
     "bom": [
-        {"type": "Capacitor", "value": "2.2nF", "spec": "foil capacitor", "qty": 1},
-        {"type": "Capacitor", "value": "1uF ", "spec": "foil", "qty": 1},
+        {"type": "Capacitor", "value": "2.2nF", "spec": "foil", "qty": 1},
+        {"type": "Capacitor", "value": "1uF", "spec": "foil", "qty": 1},
         {"type": "Resistor", "value": "100k", "qty": 4},
         {"type": "Diode", "value": "1N4148", "qty": 1},
         {"type": "IC", "value": "40106", "qty": 1},

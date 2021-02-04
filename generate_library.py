@@ -51,6 +51,7 @@ person_schema = {
     "required": ["name"]
 }
 
+onlytrimmedstringspattern = '^(|\S|\S.*\S)$'
 schema = {
         "type": "object",
         "properties": {
@@ -63,9 +64,18 @@ schema = {
                 "items": {
                     "type": "object",
                     "properties": {
-                        "type" : { "type": "string" }, #TODO: Validate type with list of allowed types
-                        "value" : { "type": "string" },
-                        "spec" : { "type": "string" },
+                        "type" : {
+                            "type": "string",
+                            "pattern": onlytrimmedstringspattern,
+                        }, #TODO: Validate type with list of allowed types
+                        "value" : {
+                            "type": "string",
+                            "pattern": onlytrimmedstringspattern,
+                        },
+                        "spec" : {
+                            "type": "string",
+                            "pattern": onlytrimmedstringspattern,
+                        },
                         "qty" : { "type": "integer" },
                         "note": { "type": "string" }
                     },
