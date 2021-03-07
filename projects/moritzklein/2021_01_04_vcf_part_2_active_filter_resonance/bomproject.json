@@ -1,0 +1,81 @@
+{
+	"title": "DIY SYNTH VCF Part 2: Active Filters & Resonance [Filt]",
+	"description": "In this series, I'm taking a detailed look at how to build an analog VCF from scratch. We're picking up the pace somewhat in this episode, since the topic is quite complex. If you need refreshers on certain concepts, there's a list of links.",
+	"author": {
+		"name": "Moritz Klein",
+		"youtube": "https://www.youtube.com/channel/UCzfW6SlNEyxmAPtdr3n-_Og",
+		"patreon": "https://www.patreon.com/moritzklein"
+	},
+	"committer": {
+		"name": "MaPePeR",
+		"github": "MaPePeR"
+	},
+	"links": {
+		"YouTube-Video": "https://www.youtube.com/watch?v=YNoj9Rrw_VM",
+		"Additional info: Negative voltages, diodes & power supply": "https://youtu.be/pQKN30Mzi2g",
+		"Additional info: Voltage dividers": "https://youtu.be/QBatvo8bCa4?t=1426",
+		"Additional info: AC coupling": "https://youtu.be/QBatvo8bCa4?t=1248"
+	},
+	"bom": [
+		{
+			"qty": 2,
+			"type": "Capacitor",
+			"value": "10nF",
+			"spec": "foil/ceramic"
+		},
+		{
+			"qty": 2,
+			"type": "Capacitor",
+			"value": "1uF",
+			"spec": "foil/ceramic"
+		},
+		{
+			"qty": 1,
+			"type": "Potentiometer",
+			"value": "100k",
+			"spec": "Linear Mono"
+		},
+		{
+			"qty": 1,
+			"type": "Potentiometer",
+			"value": "100k",
+			"spec": "Linear Stereo",
+			"note": "if you can find one, use a 500k - gives you much more range"
+		},
+		{
+			"qty": 2,
+			"type": "Resistor",
+			"value": "200k"
+		},
+		{
+			"qty": 1,
+			"type": "Resistor",
+			"value": "100k"
+		},
+		{
+			"qty": 1,
+			"type": "Resistor",
+			"value": "33k"
+		},
+		{
+			"qty": 1,
+			"type": "Resistor",
+			"value": "10k"
+		},
+		{
+			"qty": 1,
+			"type": "Resistor",
+			"value": "6k8"
+		},
+		{
+			"qty": 6,
+			"type": "Diode",
+			"value": "14148"
+		},
+		{
+			"qty": 1,
+			"type": "IC",
+			"value": "TL074"
+		}
+	]
+}

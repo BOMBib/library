@@ -1,0 +1,58 @@
+{
+	"title": "DIY SYNTH VCF Part 3: Resonant High-Pass & Vactrol-Based Voltage Control [VCF]",
+	"description": "In this series, I'm taking a detailed look at how to build an analog VCF from scratch. Things get spicy this episode, as we begin to tackle the trickiest part of synthesizer circuit design: voltage control.",
+	"author": {
+		"name": "Moritz Klein",
+		"youtube": "https://www.youtube.com/channel/UCzfW6SlNEyxmAPtdr3n-_Og",
+		"patreon": "https://www.patreon.com/moritzklein"
+	},
+	"committer": {
+		"name": "MaPePeR",
+		"github": "MaPePeR"
+	},
+	 "links": {
+		  "YouTube-Video": "https://www.youtube.com/watch?v=ITJX9jP-zm4",
+		  "Project on falstad": "https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWEB2aA2MBOZAOBaFkAmbSQkBSCkAFgGYKBTAWjDACgAlEHKrI2jnCYBVAWipIq06AnYBjHnxHgaNYaKix4kCMxhEaOTGTyZMCIgjqYIMOBwBOq9fxcgixKB52R2Ac3dPATA1EDpIdWl2Z1DXFSs0DW8wXxiPfGTEjy8qOgi4AIyk4OLwyO8-RQQwEJUagSIcITzoAt8OyJYhfVkbSBwMEjocOkJITC0HBRQceIFcdWzW9s6dGm6QVlhsIjAIhFtDGgwW7Q5AxbKrppaoGdSB5NTm5JlfPXsiOibiMbY6Pt8Hgprp0i8hG4ITlNEQ0oFoaVEa9ogB5cADSEqNiWN73MDIVxwIRjATYJI0ODgDE6LTmShreAQTgAUQAyqiAHIAQU5AGEWUVHkIaGAksLaGgovcAIazdSUqhoQy0KmTWpbDWPWm9RBGBA4ZBoKXG2zWLb2MhGCSpegIGq4OjIGnwdgAd3ltDFnpOUXYABMfVKUHDJUsQP7GAAzGUAVwANgAXAMhqi+kBoLzpgSRmMJ5OBzMCdPKhXBnPRuNJ90ZlWK2tlv0e0thhsUDV+QsqhoZrw9it56uFvsa4iSDUDqsF1PthZzWceCOV-M1q7pq49vzN7salv4aLOPcST37lI6Vfz08bjvpDfHq4EJJK3h+S7zx+etAo2XleZe8UqOqAisCEHTgG0kDfDQyCQMgyBsMY+DOmAEHfDaiDGMQkJpB62RuEiKhbr+yQRK4Rr3B6oolJS-5vDWBECKRdEekxcIkhUyw1qxmRUWURG8dkAk0X4cqnm4RbJEBmqgb4FqyJYNCHEYhJYBEGq9PahgELocKhASCBEueHo9m4YmETWZkCGJ5FEaebEUMenHGY5mQSU5vaNK5XhuCJPBGJJx5uFJIEuvAmo7GObHwZAYwmD0KETMQ+xkEcainKFRFXG4cxYqINY5ckBUEk++X+fZBXuRVmSYC5JUejVYjVYF5n1c1Mm5RRNIdRKpKdeS4TzlcIxNm29Y9vWtkamNE4ouwcr2cwPzhKGi1kuAwFamBRAQVg4x4DUyVLDtmC8KklA4HshwZewBLSiBdzMMGEDalSMD4JgDCcIwADOACW32JjKAB28iMEUVCPXd-nRNwEO1A9cSVKq61I294JJMwNXuJjT7XR6iM49j0M1gTZVPMwxMEiEuOsLjVDOpIqOyCAfIAGroykYTSHj7h8GEFMtPR5PevZS1EaLjGhmLXFS5LEPS06CpY24vE+VoowEoyDggAAMr9-gABaJgAOt9ABCjj60bQM-d9N3KrQS2I0YfPhrmU7MPGjCBnYlSwBwLErUt9DAdLzgh1swdO1zGaFJRvDuC7SidUnCc9gnr4LmnGpY9ElFLatKAVIXfiK564neYR6u8Xrhsm+blt1zb3122+6gJ1cuedcguId-OGerriiM9wIA-ODB6iFxPvOx34YoLBUw9D2Ek75p73vUtz9gB7Qyv1Fq5kAPbgAwYvrSQfDQFYRpWPDDovk+2i6Ck7BAA​"
+	 },
+	"bom": [
+		{
+			"qty": 1,
+			"type": "IC",
+			"value": "TL074"
+		},
+		{
+			"qty": 3,
+			"spec": "5mm red LED"
+		},
+		{
+			"qty": 2,
+			"spec": "Light dependent resistor"
+		},
+		{
+			"qty": 1,
+			"type": "Potentiometer",
+			"value": "100k",
+			"spec": "Linear Mono"
+		},
+		{
+			"qty": 2,
+			"type": "Resistor",
+			"value": "100k"
+		},
+		{
+			"qty": 3,
+			"type": "Resistor",
+			"value": "600"
+		},
+		{
+			"qty": 2,
+			"type": "Capacitor",
+			"value": "33nF",
+			"spec": "foil"
+		},
+		{
+			"qty": 1,
+			"spec": "Pack of FIMO"
+		}
+	]
+}

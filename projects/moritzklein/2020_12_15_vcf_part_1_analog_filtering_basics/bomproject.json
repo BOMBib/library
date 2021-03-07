@@ -1,0 +1,44 @@
+{
+	"title": "DIY SYNTH VCF Part 1: Analog Filtering Basics [Filt]",
+	"description": "In this series, I'm taking a detailed look at how to build an analog VCF from scratch. To keep it as beginner-friendly as possible, I'm explaining what all the components do in detail.\nThis first part deals with passive first- and second order high & low pass filters",
+	"author": {
+		"name": "Moritz Klein",
+		"youtube": "https://www.youtube.com/channel/UCzfW6SlNEyxmAPtdr3n-_Og",
+		"patreon": "https://www.patreon.com/moritzklein"
+	},
+	"committer": {
+		"name": "MaPePeR",
+		"github": "MaPePeR"
+	},
+	 "links": {
+			"YouTube-Video": "https://www.youtube.com/watch?v=3tMGNI--ofU"
+	},
+	"bom": [
+		{
+			"qty": 2,
+			"type": "Capacitor",
+			"value": "10nF"
+		},
+		{
+			"qty": 1,
+			"type": "Potentiometer",
+			"value": "1M",
+			"spec": "Mono"
+		},
+		{
+			"qty": 1,
+			"type": "Potentiometer",
+			"value": "1M",
+			"spec": "Stereo"
+		},
+		{
+			"qty": 1,
+			"type": "Resistor",
+			"value": "47k"
+		},
+		{
+			"qty": 2,
+			"spec": "jack socket"
+		}
+	]
+}
